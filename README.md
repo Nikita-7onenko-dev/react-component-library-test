@@ -77,21 +77,36 @@ Example usage:
 
 ## 📸 Screenshots
 
-**Input Component:**
+### Input Component
 
-* TextInput: `./screenshots/input-text.png`
-* PasswordInput: `./screenshots/input-password.png`
-* ClearableInput: `./screenshots/input-clearable.png`
+**Text Input**
+![Text Input](./public/input-text.png)
 
-**Toast Component:**
+**Password Input**
+![Password Input](./public/input-password.png)
 
-* ShortToast: `./screenshots/toast-short.png`
-* LongToast: `./screenshots/toast-long.png`
+**Clearable Input**
+![Clearable Input](./public/input-clearable.png)
 
-**SidebarMenu:**
+---
 
-* One-level menu: `./screenshots/sidebar-onelevel.png`
-* Two-level menu: `./screenshots/sidebar-twolevel.png`
+### Toast Component
+
+**Short Toast**
+![Short Toast](./public/toast-short.png)
+
+**Long Message Toast**
+![Long Message Toast](./public/toast-long.png)
+
+---
+
+### SidebarMenu Component
+
+**One-level Menu**
+![One-level Menu](./public/sidebar-onelevel.png)
+
+**Two-level Menu**
+![Two-level Menu](./public/sidebar-twolevel.png)
 
 ---
 

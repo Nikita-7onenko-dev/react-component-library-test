@@ -7,7 +7,7 @@ type Props = {
   toast: ToastType;
 };
 
-export function Toast({ toast}: Props) {
+export function Toast({ toast }: Props) {
   const { deleteToast } = useToast();
 
   useEffect(() => {
@@ -36,7 +36,7 @@ export function Toast({ toast}: Props) {
         alignItems: "center"
       }}
     >
-      {toast.message}
+      {toast.message || "Test"}
       <button
         style={{ marginLeft: 10 }}
         onClick={() => deleteToast(toast.id)}
